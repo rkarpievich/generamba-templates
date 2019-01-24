@@ -1,0 +1,29 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+final class {{ module_info.name }}ViewController: UIViewController, {{ module_info.name }}ViewProtocol {
+
+    // MARK: - Properties
+
+    var presenter: {{ module_info.name }}PresenterProtocol?
+
+    // MARK: - UIViewController
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    // MARK: - {{ module_info.name }}ViewProtocol
+
+    func setupInitialState() {
+
+    }
+
+}

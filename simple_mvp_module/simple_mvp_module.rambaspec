@@ -1,0 +1,22 @@
+# Template information section
+name: "simple_mvp_module"
+summary: "Template for creating MVP modules."
+author: "Roman Karpiyevich"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+
+# Protocols
+- {name: Protocols.swift, path: Code/protocols.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# View layer
+- {name: View/ViewController.swift, path: Code/View/view_controller.swift.liquid}
+- {name: View/ViewController.storyboard, path: Code/View/view_controller.storyboard.liquid}
+
+
